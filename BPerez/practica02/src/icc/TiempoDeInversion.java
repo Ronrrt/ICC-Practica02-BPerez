@@ -123,6 +123,7 @@ public class TiempoDeInversion {
                 System.out.println("Como se eligio la opcion 3 los valores se pondran por default en fechas iniciales de este anio");
                 diaIn = 1;
                 mesIn = 1;
+                mesIn2 = "enero";
                 anioIn = 2026;
                 System.out.println("Tu fecha inicial es:"+ diaIn + "/" + mesIn + "/" + anioIn);
             }
@@ -208,6 +209,7 @@ public class TiempoDeInversion {
                 System.out.println("Como se eligio la opcion 3 los valores se pondran por default en fechas iniciales de este anio");
                 diaFin = 1;
                 mesFin = 1;
+                mesFin2 = "enero";
                 anioFin = 2026;
                 System.out.println("Tu fecha final es:"+ diaFin + "/" + mesFin + "/" + anioFin);
             }
