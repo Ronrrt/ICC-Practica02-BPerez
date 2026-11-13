@@ -44,8 +44,8 @@ public static void main (String [] args){
         Fecha fechaNum = new Fecha(15, 8, 2023);
         System.out.println("Fecha con numeros (15/8/2023): " + fechaNum);
         
-        Fecha fechaText = new Fecha(20, "Noviembre", 2024);
-        System.out.println("Fecha con texto (20/Noviembre/2024): " + fechaText);
+        Fecha fechaText = new Fecha(20, "noviembre", 2024);
+        System.out.println("Fecha con texto (20/noviembre/2024): " + fechaText);
 
         // 2. obtener() y asignar()
 
@@ -83,7 +83,7 @@ public static void main (String [] args){
         System.out.println("Son iguales (15/5/2026) y (15/5/2026)? " + fecha3.equals(fecha4));
 
         // 7. mestoNum() y NumtoMes()
-        System.out.println(fechaDefault.mestoNum("Octubre"));
+        System.out.println(fechaDefault.mestoNum("octubre"));
         System.out.println("NumtoMes(4): " + fechaDefault.NumtoMes(4));
 
         // 8.esBisiesto()
@@ -92,7 +92,7 @@ public static void main (String [] args){
 
         // 9. diasTranscurridosAnio() y fechatoDia()
         System.out.println("Dias transcurridos al 15 de Marzo 2024 : " + 
-                     fechaDefault.diasTranscuridosAnio(15, "Marzo", 2024));
+                     fechaDefault.diasTranscuridosAnio(15, "marzo", 2024));
         System.out.println("Fecha a dias absolutos (01/01/2026): " + fechaDefault.fechatoDia(1, 1, 2026));
   
 ## Salida 
