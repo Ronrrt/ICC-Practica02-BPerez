@@ -15,7 +15,7 @@ El objetivo de esta práctica es que el alumno ejercite la teoría acerca del us
 
 El proyecto se compone de un unico programa principal integrado dentro de la estructura BPerez/practica02/src/icc/
 
-## 1. Simulacion de inversion
+## Simulacion de inversion
 
 ## Descripción general
 En una institución bancaria se requiere hacer cierto manejo de fechas para determinar, por ejemplo, la fecha final de una inversión de dinero. Por ello el propósito de este programa es ser una clase para crear y manejar fechas.
