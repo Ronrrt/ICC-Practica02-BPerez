@@ -312,8 +312,8 @@ public class Fecha {
     /**
     * Método para convertir el nombre de un mes expresado en cadena de texto a su  equivalencia en numero.
     * @param mes - cadena de texto con el nombre del mes.
-    * @return int - el numero respecto al mes: Enero=1, Febrero=2, Marzo=3, Abril=4, Mayo=5, Junio=6,
-    * Julio=7, Agosto=8, Septiembre=9, Octubre=10, Noviembre=11, Diciembre=12 y en caso contrario -1.
+    * @return int - el numero respecto al mes: enero=1, febrero=2, marzo=3, abril=4, mayo=5, junio=6,
+    * julio=7, agosto=8, septiembre=9, octubre=10, noviembre=11, diciembre=12 y en caso contrario -1.
     */
     public int mestoNum (String mes) {
             if (mes.equals("enero")) {
@@ -350,8 +350,8 @@ public class Fecha {
     /**
     * Método para convertir el número de un mes a su equivalente en cadena de texto.
     * @param mes - número de un mes que se va convertir en el mes escrito en cadena de texto.
-    * @return String - el mes escrit respecto al numero del mes dado: 1=Enero 2=Febrero, 3=Marzo, 4=Abril, 5=Mayo, 6=Junio,
-    * 7=Julio, 8=Agosto, 9=Septiembre, 10=Octubre, 11=Noviembre, 12=Diciembre y en caso contrario unknown.
+    * @return String - el mes escrit respecto al numero del mes dado: 1=enero 2=Febrero, 3=marzo, 4=abril, 5=mayo, 6=junio,
+    * 7=julio, 8=agosto, 9=septiembre, 10=octubre, 11=noviembre, 12=diciembre y en caso contrario unknown.
     */
     public String NumtoMes (int mes) {
             if (mes == 1) {
