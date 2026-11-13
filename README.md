@@ -100,9 +100,7 @@ public static void main (String [] args){
 ```bash
 Fecha por default: 1/enero/2026
 Fecha con numeros (15/8/2023): 15/agosto/2023
-Mes no valido
-Mes no valido
-Fecha con texto (20/Noviembre/2024): 20/unknown/2024
+Fecha con texto (20/noviembre/2024): 20/noviembre/2024
 Nueva fecha : 10/12/2026
 Validar 29/2/2024 ¿Valido? true
 Validar 29/2/2023 ¿Valido? Dia no valido
@@ -113,14 +111,13 @@ Diferencia entre 01/01/2026 y 10/01/2026: 9 dias
 Fecha original: 28/febrero/2024
 Fecha despues de la suma: 4/marzo/2024
 Son iguales (15/5/2026) y (15/5/2026)? true
-Mes no valido
--1
+10
 NumtoMes(4): abril
 Es 2024 bisiesto? true
 Es 2026 bisiesto? false
-Mes no valido
-Dias transcurridos al 15 de Marzo 2024 : 15
+Dias transcurridos al 15 de Marzo 2024 : 75
 Fecha a dias absolutos (01/01/2026): 739982
+
 
 ```
 
