@@ -232,7 +232,7 @@ Se puede compilar y ejecutar el programa desde la terminal usando cualquiera de 
     javac icc/*.java
     ```
   * 2) (Si quieres compilar un archivo de forma individual, puedes usar: `javac icc/Fecha.java` o `javac icc/TiempoDeInversion.java`)
-  * 
+    
   * 3) Ejecutar el simulador de inversión:
     ```bash
     java icc.TiempoDeInversion
