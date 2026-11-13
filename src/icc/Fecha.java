@@ -316,29 +316,29 @@ public class Fecha {
     * Julio=7, Agosto=8, Septiembre=9, Octubre=10, Noviembre=11, Diciembre=12 y en caso contrario -1.
     */
     public int mestoNum (String mes) {
-            if (mes.equals("Enero")) {
+            if (mes.equals("enero")) {
                 return 1;
-            } else if (mes.equals("Febrero")) {
+            } else if (mes.equals("febrero")) {
                 return 2;
-            } else if (mes.equals("Marzo")) {
+            } else if (mes.equals("marzo")) {
                 return 3;
             } else if (mes.equals("Abril")) {
                 return 4;
-            } else if (mes.equals("Mayo")) {
+            } else if (mes.equals("mayo")) {
                 return 5;
-            } else if (mes.equals("Junio")) {
+            } else if (mes.equals("junio")) {
                 return 6;
-            } else if (mes.equals("Julio")) {
+            } else if (mes.equals("julio")) {
                 return 7;
-            } else if (mes.equals("Agosto")) {
+            } else if (mes.equals("agosto")) {
                 return 8;
-            } else if (mes.equals("Septiembre")) {
+            } else if (mes.equals("septiembre")) {
                 return 9;
-            } else if (mes.equals("Octubre")) {
+            } else if (mes.equals("octubre")) {
                 return 10;
-            } else if (mes.equals("Noviembre")) {
+            } else if (mes.equals("noviembre")) {
                 return 11;
-            } else if (mes.equals("Diciembre")) {
+            } else if (mes.equals("diciembre")) {
                 return 12;
             } else {
                 System.out.println("Mes no valido");
@@ -355,29 +355,29 @@ public class Fecha {
     */
     public String NumtoMes (int mes) {
             if (mes == 1) {
-                return "Enero";
+                return "enero";
             } else if (mes == 2) {
-                return "Febrero";
+                return "febrero";
             } else if (mes == 3) {
-                return "Marzo";
+                return "marzo";
             } else if (mes == 4) {
-                return "Abril";
+                return "abril";
             } else if (mes == 5) {
-                return "Mayo";
+                return "mayo";
             } else if (mes == 6) {
-                return "Junio";
+                return "junio";
             } else if (mes == 7) {
-                return "Julio";
+                return "julio";
             } else if (mes == 8) {
-                return "Agosto";
+                return "agosto";
             } else if (mes == 9) {
-                return "Septiembre";
+                return "septiembre";
             } else if (mes == 10) {
-                return "Octubre";
+                return "octubre";
             } else if (mes == 11) {
-                return "Noviembre";
+                return "noviembre";
             } else if (mes == 12) {
-                return "Diciembre";
+                return "diciembre";
             } else {
                 System.out.println("Mes no valido");
                 return "unknown";

@@ -45,9 +45,9 @@ public class TiempoDeInversion {
             do {
 
                 System.out.println("Elige un formato valido");
-                System.out.println("\"dia/mes(palabra)/anio\" si este es el que deseas presiona 1");
-                System.out.println("\"dia/mes(numero)/anio\" si este es el que deseas presiona 2");
-                System.out.println("mismo formato que la opcion 1 pero los valores por default son los iniciales de este anio si este es el que deseas presiona 3");
+                System.out.println("> \"dia/mes(palabra)/anio\" si este es el que deseas presiona 1");
+                System.out.println("> \"dia/mes(numero)/anio\" si este es el que deseas presiona 2");
+                System.out.println("> Mismo formato que la opcion 1 pero los valores por default son los iniciales de este anio si este es el que deseas presiona 3");
                 
                 answerIn = in.nextInt();
                 
@@ -132,9 +132,9 @@ public class TiempoDeInversion {
 
             do {
                 System.out.println("Elige un formato valido");
-                System.out.println("\"dia/mes(palabra)/anio\" si este es el que deseas presiona 1");
-                System.out.println("\"dia/mes(numero)/anio\" si este es el que deseas presiona 2");
-                System.out.println("mismo formato que la opcion 1 pero los valores por default son 0 si este es el que deseas presiona 3");
+                System.out.println("> \"dia/mes(palabra)/anio\" si este es el que deseas presiona 1");
+                System.out.println("> \"dia/mes(numero)/anio\" si este es el que deseas presiona 2");
+                System.out.println("> Mismo formato que la opcion 1 pero los valores por default son 0 si este es el que deseas presiona 3");
                 
                 answeFin = in.nextInt();
                 
