@@ -218,22 +218,22 @@ no
 Se puede compilar y ejecutar el programa desde la terminal usando cualquiera de las dos opciones siguientes:
 
 * **Opción 1:** Ubicado en la carpeta raíz del proyecto (practica02)
-  * 1). Compilar todos los archivos:
+  * 1) Compilar todos los archivos:
     ```bash
     javac src/icc/*.java
     ```
-  * 2). Ejecutar el simulador de inversión:
+  * 2) Ejecutar el simulador de inversión:
     ```bash
     java -cp src icc.TiempoDeInversion
     ```
 * **Opción 2:** Ubicado dentro de la carpeta src
-  * 1). Compilar todos los archivos:
+  * 1) Compilar todos los archivos:
     ```bash
     javac icc/*.java
     ```
-  * 2). (Si quieres compilar un archivo de forma individual, puedes usar: `javac icc/Fecha.java` o `javac icc/TiempoDeInversion.java`)
+  * 2) (Si quieres compilar un archivo de forma individual, puedes usar: `javac icc/Fecha.java` o `javac icc/TiempoDeInversion.java`)
   * 
-  * 3). Ejecutar el simulador de inversión:
+  * 3) Ejecutar el simulador de inversión:
     ```bash
     java icc.TiempoDeInversion
     ```
