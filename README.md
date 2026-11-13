@@ -91,7 +91,7 @@ public static void main (String [] args){
         System.out.println("Es 2026 bisiesto? " + fechaDefault.esBisiesto(2026));
 
         // 9. diasTranscurridosAnio() y fechatoDia()
-        System.out.println("Dias transcurridos al 15 de Marzo 2024 : " + 
+        System.out.println("Dias transcurridos al 15 de marzo 2024 : " + 
                      fechaDefault.diasTranscuridosAnio(15, "marzo", 2024));
         System.out.println("Fecha a dias absolutos (01/01/2026): " + fechaDefault.fechatoDia(1, 1, 2026));
   
